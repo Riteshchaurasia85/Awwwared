@@ -1,0 +1,164 @@
+@font-face{
+    font-family: FontOne;
+    src: url(./Assects/659fd3b6edf7b715a6ffbe84_PPNeueMontreal-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: FontOne;
+    src: url(./Assects/659fd3d188ac3ef2ae3c90ae_PPNeueMontrealMono-Book.ttf);
+}
+
+@font-face{
+    font-family: FontOne;
+    src: url(./Assects/65d7ce451dd27d043fd52655_PPNeueMontreal-Medium.ttf);
+}
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+ .main{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-color: aquamarine;
+ }
+
+ nav{
+    position: fixed;
+    width: 70%;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    top: 4vh;
+    border-radius: 550px;
+    height: 7vh;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    padding-right: 3vh;
+    z-index: 4;
+   
+   
+
+
+ }
+
+ .section-1{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    justify-content: start;
+    /* flex-direction: row; */
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.prod.website-files.com/659f15a242e58eb40c8cf14b/665836560440ffd4b68c753f_Hero%20Image-p-1600.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 0vw 12vw;
+
+ }
+
+ nav a{
+    color:green !important ;
+ }
+
+ .logo{
+    width: 10vw;
+    height: 100%;
+    /* background-color: orange; */
+
+ }
+
+
+ .logo svg{
+    width: 50%;
+    
+ }
+
+
+.cntr-menu{
+    width: 25%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.cntr-menu ul {
+    padding: 0vw;
+    margin: 0vw;
+}
+
+.rght-nav button{
+   border-radius: 50px;
+   padding: 0.7vw 1.5vw;
+}
+
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 2vh;
+    width: 28%;
+    color: #fff;
+}
+.hero-text h1{
+    font-size: 4vw;
+    font-family: FontOne;
+    line-height: 8vh;
+}
+
+.hero-text p{
+    font-size: 1vw;
+    text-align: left;
+}
+
+.hero-text button {
+     align-self: flex-start;
+     border-radius: 50px;
+     padding: 0.8vw 1.5vw;
+}
+
+.overlay-main {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    /* background-color: black; */
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(192, 190, 190, 0.784) 0%, rgba(214, 213, 213, 0.23) 35%, rgba(170, 162, 162, 0.299) 100%);
+     
+   
+    width: 55%;
+    height: 100%;
+}
+
+#orange{
+    position: absolute;
+    top: 2%;
+    left: -4%;
+    width: 10vw;
+    rotate: 10deg;
+    z-index: 5;
+}
+
+#leaf {
+    position: absolute;
+    bottom:0%;
+    left: 0%;
+    width: 10vw;
+    z-index: 3;
+}
+
+
+
+
